@@ -1,0 +1,8 @@
+#define TAPPING_TERM 250
+#define TAPPING_TERM_LONG 600
+#define LEADER_TIMEOUT 300
+#define LEADER_PER_KEY_TIMING
+
+//reduce size of program
+#define NO_ACTION_MACRO
+#define NO_ACTION_FUNCTION

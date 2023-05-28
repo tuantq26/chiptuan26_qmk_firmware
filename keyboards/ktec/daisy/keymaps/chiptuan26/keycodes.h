@@ -10,6 +10,8 @@ enum custom_keycodes { MY_HASH = SAFE_RANGE, ESC_FOR_MAC, BSPC_FOR_MAC, MY_ALT_T
 // MT - MOD (hold) | tap keycode
 #define MT_CTRL_TAB MT(MOD_LCTL, KC_TAB)
 #define MT_GUI_TAB MT(MOD_LGUI, KC_TAB)
+#define MT_GUI_LEFT_MAC MT(MOD_LGUI, KC_LEFT)
+#define MT_GUI_RIGHT_MAC MT(MOD_LGUI, KC_RIGHT)
 
 // Hold Keycode + Keycode
 #define CTRL_BSPC LCTL(KC_BSPC)   // = MT(MOD_LCTL, kc)
